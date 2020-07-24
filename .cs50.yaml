@@ -1,0 +1,6 @@
+check50:
+  checks:
+    hello world:
+      - run: ruby hello.rb
+        stdout: Hello, world!
+        exit: 0
